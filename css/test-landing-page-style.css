@@ -1,0 +1,815 @@
+body {
+    font-family: "Segoe UI";
+}
+
+.mbl-tblt-view {
+    display: none;
+}
+
+.dsktp-view {
+    display: block;
+}
+
+
+#landing-page-dsktp {
+    background-image: url(../images/landing-page/header-banner-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.dsktp-view .book-demo-dsktp a:hover {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.cnt-ftr-frm-sec {
+    background-color: #ecf0f1;
+    margin-top: -2px;
+}
+
+.dsktp-view .conact-form-content-dsktp button:hover {
+    background-color: transparent;
+    color: #198574;
+}
+
+img.landing-logo-dsktp {
+    margin-top: 12px;
+    width: 175px;
+}
+
+.bookdemo-container-dsktp {
+    padding: 0 125px;
+}
+
+.dsktp-view ul.contact-details-dsktp {
+    list-style: none;
+    color: #ffffff;
+    margin-bottom: 0;
+        padding: 15px 0;
+}
+
+.book-demo-dsktp h1 {
+    font-size: 47px;
+}
+
+.dsktp-view ul.contact-details-dsktp li {
+    display: inline-block;
+    margin-left: 20px;
+        font-size: 23px;
+}
+
+.dsktp-view ul.contact-details-dsktp li a {
+    color: #ffffff;
+}
+
+.dsktp-view .conact-form-content-dsktp {
+    margin-top: -2px;
+    background-color: #f7f9fb;
+    padding: 25px;
+    border-radius: 0;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 9px 13px 45px 4px rgb(204 213 222 / 24%), -9px -13px 45px 4px rgb(81 103 124 / 24%);
+}
+
+
+.dsktp-view .conact-form-content-dsktp form label {
+    font-weight: 500;
+}
+
+.dsktp-view .conact-form-content-dsktp form input, .dsktp-view .conact-form-content-dsktp form textarea {
+    border-radius: 0;
+    border: 0;
+}
+
+
+
+
+.cnt-ftr-frm-sec {
+    background-color: #ecf0f1;
+    margin-bottom: -2px;
+    padding-bottom: 25px;
+}
+
+.dsktp-view .conact-form-content-dsktp button {
+     background-color: #439185; 
+    color: #ffffff;
+    font-size: 17px;
+    border: 1px solid #439185; 
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dsktp-view .book-demo-dsktp {
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.dsktp-view .book-demo-dsktp a {
+    background-color: #f7f8fa;
+    color: #4ba6a4;
+    font-size: 27px;
+    font-weight: bold;
+    border-radius: 33px;
+    padding: 10px 32px;
+}
+
+.dsktp-view .book-demo-dsktp h3 {
+    margin: 10px 0 20px 0;
+}
+
+.dsktp-view .book-demo-dsktp h3 {
+    margin: 15px 0;
+}
+
+
+.dsktp-view .process-slide-dsktp h2 {
+    font-size: 43px;
+    font-family: "Segoe UI";
+    color: rgb( 26, 173, 129 );
+    text-align: center;
+    line-height: 48px;
+}
+
+
+.features-content-dsktp {
+    padding: 25px 0;
+    border-width: 0px;
+    border-color: rgb( 102, 173, 132 );
+    border-style: solid;
+    border-radius: 45px;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 8px 4px 12px 5px rgb(0 0 0 / 30%);
+    margin-bottom: 100px;
+}
+
+.features-content-dsktp img {
+    margin: 30px 0;
+}
+
+.features-content-dsktp h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.features-content-dsktp p {
+    font-size: 21px;
+}
+
+.dsktp-view .features-slide-dsktp {
+    background-image: url(../images/landing-page/footer-bg-dsktp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    }
+
+
+  @media (max-width: 1440px) {
+
+
+.dsktp-view ul.contact-details-dsktp {
+    margin-top: 15px;
+}
+
+#landing-page-dsktp {
+    background-size: 100%;
+    }
+
+    .dsktp-view .book-demo-dsktp {
+    margin-top: 38px;
+}
+
+
+
+
+.dsktp-view .conact-form-content-dsktp button {
+    font-size: 17px;
+}
+
+
+#landing-page-dsktp {
+    height: 600px;
+}
+
+
+}
+
+
+@media (max-width: 1366px) {
+
+img.landing-logo-dsktp {
+    margin-top: 15px;
+    width: 150px;
+}
+
+.book-demo-dsktp h1 {
+    font-size: 37px;
+}
+
+.dsktp-view .book-demo-dsktp h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.dsktp-view .book-demo-dsktp a {
+    font-size: 18px;
+    padding: 5px 18px;
+}
+
+
+
+#landing-page-dsktp {
+    height: 550px;
+}
+
+
+}
+
+@media (max-width: 1280px) {
+
+#landing-page-dsktp {
+    height: 475px;
+}
+
+    }
+
+    @media (max-width: 1199px) {
+
+.features-content-dsktp p {
+    font-size: 16px;
+}
+
+.features-content-dsktp h5 {
+    font-size: 21px;
+    }
+
+    img.landing-logo-dsktp {
+    margin-top: 9px;
+    width: 125px;
+}
+
+.dsktp-view ul.contact-details-dsktp {
+    margin-top: 0px;
+}
+
+.dsktp-view ul.contact-details-dsktp li {
+    font-size: 20px;
+}
+
+
+#landing-page-dsktp {
+    height: 400px;
+}
+
+
+    }
+
+@media (max-width: 1024px) {
+    img.landing-logo-dsktp {
+    margin-top: 10px;
+    width: 100px;
+}
+
+.book-demo-dsktp h1 {
+    font-size: 35px;
+}
+
+
+.dsktp-view ul.contact-details-dsktp li {
+    font-size: 17px;
+}
+
+.dsktp-view ul.contact-details-dsktp{
+        margin-top: -5px;
+}
+
+.bookdemo-container-dsktp {
+    padding: 0px 75px;
+}
+
+#landing-page-dsktp {
+    height: 400px;
+}
+
+.features-content-dsktp h5 {
+    font-size: 20px;
+}
+
+.features-content-dsktp p {
+    font-size: 16px;
+}
+
+
+}
+
+/*********** mobile design start ************/
+
+ @media (max-width: 991px) {
+
+    .dsktp-view {
+    display: none !important;
+}
+
+.mbl-tblt-view {
+    display: block !important;
+}
+
+
+.landing-logo {
+    width: 100%;
+}
+
+ul.contact-details {
+    list-style: none;
+}
+
+ul.contact-details li {
+    display: inline-block;
+     font-size: 21px;
+  font-family: "Segoe UI";
+  color: rgb( 26, 173, 129 );
+  font-weight: 500;
+}
+
+
+
+ul.contact-details li a {
+   color: rgb( 26, 173, 129 );
+}
+
+ul.contact-details li i {
+   margin-right: 5px;
+  }
+
+  ul.contact-details {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.banner-slide {
+    background-image: url(../images/landing-page/banner-bg.png);
+    min-height: 400px;
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+.banner-conten {
+  font-family: "Segoe UI";
+    color: rgb( 255, 255, 255 );
+    margin-top: 75px;
+}
+
+.banner-conten h1 {
+   font-size: 48px;
+  }
+
+  .banner-conten h4 {
+    font-size: 27px;
+    margin: 0px 0 25px 0;
+  }
+
+.banner-conten .btn-demo {
+ font-family: "Segoe UI";
+    color: rgb( 75, 167, 164 );
+    background-color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 33px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.process-slide h2 {
+    font-size: 31px;
+    font-family: "Segoe UI";
+    color: rgb( 26, 173, 129 );
+    text-align: center;
+    line-height: 48px;
+}
+
+
+.features-content {
+  padding: 25px 0;
+    border-width: 0px;
+    border-color: rgb( 102, 173, 132 );
+    border-style: solid;
+    border-radius: 45px;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 8px 4px 12px 5px rgb(0 0 0 / 30%);
+    margin-bottom: 100px;
+}
+
+.features-content img {
+    margin: 30px 0;
+}
+
+.features-content h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.features-content p {
+    font-size: 21px;
+}
+
+
+
+footer {
+    background-image: url(../images/landing-page/footer.png);
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 200px;
+    margin-top: -275px;
+}
+
+.conact-form-content {
+    background-color: #f7f9fb;
+    padding: 25px;
+    border-radius: 0;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 9px 13px 45px 4px rgb(204 213 222 / 24%), -9px -13px 45px 4px rgb(81 103 124 / 24%);
+}
+
+.conact-form-content form {
+    /*position: absolute;
+    top: 35px;
+    right: 10%;*/
+}
+
+.conact-form-content form h5 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.bottom-footer {
+    background-color: #ffffff;
+    margin-top: -1px;
+}
+
+
+.conact-form-content form .btn-sbmt {
+    font-family: "Segoe UI";
+/*    background-color: #439185;*/
+    color: #ffffff;
+    font-size: 17px;
+/*    border: 1px solid #439185;*/
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.conact-form-content form input, .conact-form-content form textarea {
+border-radius: 0;
+    border: 0;
+}
+
+.conact-form-content form label {
+    font-weight: 500;
+}
+
+
+header#landing-page {
+    box-shadow: 0 0 4px 4px rgb(0 0 0 / 30%);
+    position: relative;
+}
+
+
+
+.conact-form-content form-group {
+    margin-bottom: 40px;
+}
+    
+
+
+
+  }
+
+ @media (max-width: 576px) {
+
+    footer {
+    min-height: 575px;
+}
+
+ul.contact-details li {
+    font-size: 15px;
+  }
+
+  ul.contact-details {
+    margin: 7px 0 0 0;
+}
+
+.banner-conten h1 {
+    font-size: 41px;
+}
+
+.banner-conten h4 {
+    font-size: 23px;
+}
+
+.process-slide h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.conact-form-content form h5 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+
+
+    .conact-form-content form .form-group {
+margin-bottom: 20px;
+    }
+
+  }
+
+  @media (max-width: 556px) {
+.process-slide h2 {
+    font-size: 24px;
+}
+  }
+
+  @media (max-width: 480px) {
+
+ul.contact-details li {
+    font-size: 13px;
+}
+
+.process-slide h2 {
+    font-size: 24px;
+}
+
+
+ul.contact-details {
+    margin: 0 0 0 0;
+}
+
+
+  .conact-form-content {
+    padding: 15px;
+    width: 100%;
+}
+
+
+.conact-form-content form input {
+    font-size: 13px;
+}
+
+.conact-form-content form .btn-sbmt {
+    font-size: 13px;
+}
+
+.banner-conten {
+    margin-top: 50px;
+}
+
+.banner-slide {
+        min-height: 325px;
+}
+
+  }
+
+ @media (max-width: 450px) {
+  .contact-details li.mr-4 {
+    margin-right: 5px !important;
+    padding-left: 0;
+}
+
+.banner-conten h1 {
+    font-size: 37px;
+}
+
+.process-slide h2 {
+    font-size: 21px;
+}
+
+}
+
+    @media (max-width: 414px) {
+
+ul.contact-details li {
+    font-size: 13px;
+}
+
+ul.contact-details {
+    margin: 3px 0 0 0;
+}
+
+.banner-conten h1 {
+    font-size: 35px;
+}
+
+.banner-conten h4 {
+    font-size: 19px;
+}
+
+.banner-conten .btn-demo {
+    font-size: 18px;
+}
+
+.banner-slide {
+    min-height: 300px;
+}
+
+.conact-form-content form input {
+    font-size: 11px;
+}
+
+.process-slide h2 {
+    font-size: 20px;
+    }
+
+ 
+
+@-moz-document url-prefix() {
+                .conact-form-content form .form-group {
+    margin-bottom: 8px;
+}
+
+            }
+
+    }
+
+
+
+
+
+      @media (max-width: 385px) {
+
+        ul.contact-details li {
+    font-size: 11px;
+}
+
+.process-slide h2 {
+    font-size: 19px;
+  }
+
+.banner-conten h1 {
+    font-size: 33px;
+}
+
+.banner-conten .btn-demo {
+    font-size: 16px;
+}
+
+.banner-slide {
+    min-height: 275px;
+}
+
+.process-slide h2 {
+    line-height: 25px;
+}
+
+.features-content h5 {
+    font-size: 25px;
+    }
+
+    .features-content p {
+    font-size: 17px;
+}
+
+.features-content {
+    padding: 15px 0;
+    margin-bottom: 75px;
+}
+
+.conact-form-content form h5 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.conact-form-content form .form-group {
+    margin-bottom: 8px;
+}
+
+.mail-icon {
+    margin-top: 35px;
+}
+
+@-moz-document url-prefix() {
+
+ul.contact-details li {
+    font-size: 12px;
+}
+
+.conact-form-content form input {
+    height: calc(1.5em + .75rem + -3px);
+}
+    }
+
+      }
+
+                  @media (max-width: 360px) {
+
+.process-slide h2 {
+    font-size: 18px;
+  }
+
+ul.contact-details li.mr-4 {
+    margin-right: 0 !important;
+}
+
+
+
+.btn-sbmt {
+    padding: 2px 10px;
+}
+
+
+
+}
+            @media (max-width: 355px) {
+
+.banner-conten h1 {
+    font-size: 31px;
+}
+
+.banner-conten h4 {
+    font-size: 17px;
+}
+
+
+ul.contact-details li {
+    font-size: 10px;
+}
+
+
+.process-slide h2 {
+    font-size: 19px;
+  }
+
+  h6.sub-text {
+    font-size: 13px;
+}
+
+ul.contact-details li i {
+    margin-right: 2px;
+}
+
+.banner-conten h1 {
+    font-size: 27px;
+}
+
+.banner-conten h4 {
+    font-size: 15px;
+}
+
+.features-content h5 {
+    font-size: 20px;
+}
+.conact-form-content form {
+    top: 7px;
+}
+
+.conact-form-content form .form-group {
+    margin-bottom: 8px;
+}
+
+.process-slide h2 {
+    font-size: 16px;
+}
+
+.features-content p {
+    font-size: 14px;
+}
+
+.features-content {
+    padding: 11px 0;
+    margin-bottom: 50px;
+}
+
+.mail-icon {
+    margin-top: 60px;
+}
+
+
+
+@-moz-document url-prefix() {
+
+ul.contact-details li {
+    font-size: 10px;
+}
+
+.process-slide h2 {
+    font-size: 15px;
+}
+
+.conact-form-content form input {
+    height: calc(1.5em + .75rem + -8px);
+    font-size: 10px;
+}
+
+}
+
+}

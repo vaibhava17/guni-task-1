@@ -1,0 +1,317 @@
+/* Globale */
+main{
+    padding-bottom: 10%;
+}
+.padding-bottom{
+    padding-bottom: 15%;
+}
+.hidden{
+    display: none;
+}
+
+/* Main */
+.main {
+    position: relative;
+    text-align: center;
+}
+.main .head{
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    transform: translate(-50%, 5%);
+}
+.head img{
+    width: 125%;
+    height: 125%;
+}
+.head .head-text {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translate(12%, -35%);
+}
+
+/* Who We Are VA */
+.card-container .card {
+    width: 1200px;
+    height: 750px;
+    background-color: #BAEEF832;
+    border-radius: 25px;
+    border: 2px solid #1DA0D832;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left right";
+}
+.card-container .card .left-content{
+    padding: 5%;
+    grid-area: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.inner-card{
+    position: relative;
+    top: 20px;
+}
+.card-btn{
+    background-color: #fff;
+    width: 500px;
+    height: 270px;
+    border-radius: 25px;
+    border: 2px solid #7FC9E9;
+}
+.card-btn h1{
+    font-size: 24px;
+    padding: 5%;
+}
+.cover{
+    background-color: #1BAF9219;
+    border-radius: 25px;
+    width: 535px;
+    height: 220px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cover p{
+    font-size: 16px;
+    color: #00000070;
+    padding: 4% 8%;
+}
+.card-container .card .right-content{
+    padding: 10% 0;
+    grid-area: right;
+}
+.img-content h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+.img-content img{
+    height: auto;
+    width: 50%;
+    margin: 20px;
+}
+.img-content p{
+    font-size: 20px;
+    margin: 0 70px 40px;
+}
+.card hr {
+    border: 1px solid #11B6CA;
+    width: 99px
+}
+/* Why Do We Do It? */
+.why-container{
+    padding: 3rem 0 0 0;
+}
+.why-container h1{
+    font-size: 28px;
+}
+.why-container h1 span{
+    color: #1DA0D8;
+    font-weight: bold;
+}
+
+.values{
+    background: linear-gradient(white,white, white, #C0F0FF);
+    position: relative;
+    padding: 5%;
+    height: 1550px;
+    width: 1200px;
+}
+.values .path{
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.img-value{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-top: 200px;
+}
+.value{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "img" "text";
+    margin: 10px 10px 10px 10px;
+}
+
+/* top right bottom left */
+.value:nth-child(1){
+    margin: 0 100px 30px -20px;
+}
+.value:nth-child(2){
+    margin: 0 -60px 0 160px;
+}
+.value:nth-child(3){
+    margin: -65px 80px 70px -20px;
+}
+.value:nth-child(4){
+    margin: 60px -60px 0px 160px;
+}
+.value:nth-child(5){
+    margin: -100px 75px 70px -20px;
+}
+.value:nth-child(6){
+    margin: 10px -60px 60px 160px;
+}
+.value:nth-child(7){
+    margin: -130px 70px 155px -20px;
+}
+.value:nth-child(8){
+    margin: -90px -60px 100px 155px;
+}
+.value img{
+    grid-area: img;
+    height: auto;
+    width: 315px;
+}
+.value p{
+    font-size: 14px;
+    grid-area: text;
+    text-align: left;
+}
+
+/* Founder Quote */
+.quote{
+    position: relative;
+    background-color: #11B6CA31;
+    width: 1200px;
+    height: 360px;
+}
+.quote-img img{
+    position: absolute;
+    top: 43%;
+    left: 26.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.quote-bdr{
+    position: absolute;
+    top: 42%;
+    left: 56.9%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 290px;
+}
+.quote-bg{
+    position: absolute;
+    top: 53%;
+    left: 63.4%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 340px;
+}
+.quote-text{
+    position: absolute;
+    top: 47%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+}
+.quote-text p{
+    font-size: 16px;
+    margin: 0 -30px 20px;
+}
+.quote-text .name{
+    font-size: 20px;
+}
+
+/* Endlessly Adding Value */
+.endlessly{
+    background: linear-gradient(white, #C0F0FF14);
+    padding: 3rem 0 0 0;
+}
+.endlessly h1{
+    font-size: 28px;
+    padding: 0 0 3rem 0;
+}
+.endlessly .endlessly-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "a b c d" "e f g h";
+    row-gap: 30px;
+    column-gap: 30px;
+    padding: 0 5% 0 5%;
+}
+.company{
+    width: 281px;
+    height: 465px;
+    display: flex;
+    justify-content: center;
+    padding: 4% 13%;
+    background-color: transparent;
+}
+.company:hover{
+    border: 2px solid #1DA0D8;
+    background-color: white;
+    box-shadow: 5px 5px 30px #00000050;
+    text-align: center !important;
+}
+.company p:hover{
+    text-align: center !important;
+}
+.logo{
+    margin: 0 0 10px 0;
+}
+.title{
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+    font-size: 27px;
+    box-shadow: 2px ​2px 1px #41414150;
+    background: #11B6CA;
+    letter-spacing: 6px;
+    text-align: center;
+    color: white;
+}
+.title2{
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+    font-size: 27px;
+    box-shadow: 2px ​2px 1px #00000050;
+    background: #1BAF92;
+    letter-spacing: 6px;
+    text-align: center;
+    color: white;
+}
+.title3{
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+    font-size: 27px;
+    background: #158BBB;
+    letter-spacing: 6px;
+    text-align: center;
+    color: white;
+}
+.company h6{
+    font-size: 16px;
+    text-align: center;
+}
+.company p{
+    font-size: 16px;
+    text-align: left;
+}
+.endlessly-card .d-flex{
+    box-shadow: 2px ​2px 1px #00000050;
+}
+.name1{
+    color: #11B6CA;
+}
+.name2{
+    color: #1BAF92;
+}
+.name3{
+    color: #158BBB;
+}

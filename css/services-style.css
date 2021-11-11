@@ -1,0 +1,206 @@
+.health-care {
+	  background-image: url(../images/services/health-care/section-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 83%;
+}
+
+.healthcare-img {
+    margin: 15% 0;
+}
+
+.healthcare-caption h2 {
+        font-weight: bold;
+    margin-bottom: 36px;
+}
+
+
+.healthcare-caption p {
+        font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.healthcare-caption a {
+    font-size: 18px;
+}
+
+section.health-care-system {
+    padding: 60px 0;
+}
+
+.health-care-header h5 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+
+ul.fico-health-care-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.fico-health-care-list h5 {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+ul.fico-health-care-list i {
+    color: #7d83ff;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 20px;
+}
+
+ul.fico-health-care-list li {
+    margin-bottom: 15px;
+}
+
+
+ul.fico-health-care-list p {
+    font-size: 14px;
+}
+
+.health-care-header h2 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+section.health-care-services .container {
+    background-image: url(../images/services/health-care/health-care-services-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section.health-care-services .container {
+    padding: 60px 0;
+}
+
+section.health-care-business {
+    padding: 60px 0;
+}
+
+section.value-addition {
+    padding: 60px 0;
+}
+
+
+.btn-value-addition {
+    background-color: #9DDED6;
+    font-weight: bold;
+    margin: auto;
+    padding: 15px 0;
+    border-radius: 33px;
+}
+
+
+.value-addition-hdr p {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.value-addition-navtabs .nav-tabs .nav-item.show .nav-link, .value-addition-navtabs .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #5ACCDE;
+    border-color: #5ACCDE #5ACCDE #5ACCDE;
+    border-bottom: 0px solid;
+    border-radius: 0;
+}
+
+.value-addition-navtabs .nav-tabs {
+    border-bottom: 1px solid #5ACCDE;
+}
+
+.value-addition-navtabs .nav-tabs .nav-link {
+
+    color: #000000;
+}
+
+.value-addition-navtabs .tab-content {
+    background-color: #dff1f3;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+.value-addition-navtabs .tab-content h5 {
+    color: #212322;
+    font-weight: bold;
+    margin: 15px 0 50px 0;
+}
+
+
+/* RESPONSIVE START */
+
+
+       @media (max-width: 991px) {
+
+.healthcare-caption {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.healthcare-caption {
+    margin: 40px 0 15px 0;
+    }
+
+
+section.health-care .col-lg-6.d-flex.align-items-center {
+    display: block !important;
+}
+
+
+.healthcare-img {
+    margin: 0;
+}
+
+.health-care {
+    background-size: 100% 51%;
+}
+
+
+.health-care-header h5 {
+    font-size: 18px;
+}
+
+ul.fico-health-care-list .ml-2 {
+    text-align: center;
+}
+
+section.health-care-services .container {
+    background-image: none;
+        padding: 60px 15px;
+}
+
+section.health-care-services {
+    background-image: url(../images/services/health-care/health-care-services-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.health-care-services .col-lg-5.d-flex.align-items-center {
+    display: block !important;
+    text-align: center;
+}
+
+
+.health-care-services img {
+    margin-bottom: 30px;
+}
+
+       	}
+
+
+       	       @media (max-width: 414px) {
+
+.healthcare-caption h2 {
+    font-size: 28px;
+}
+
+.healthcare-caption p {
+    font-size: 16px;
+    }
+
+       	       }
